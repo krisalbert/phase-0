@@ -15,9 +15,9 @@ Commit messages has to be descriptiive. Someone who will later access the reposi
  This is usually used after the git reset command to go back to the last commit. HEAD^ is a shortcut for "HEAD^1" which means go back to the last commit.
 
 **5. What are the 3 stages of a git change and how do you move a file from one stage to the other?**
-  *- Working* - This means that you are currently working on a file in the current branch.
-  *- Stage* - Before you commit a file, you must "git add" it first to the staging area. This means that changes are ready to be committed to a particular file. A snapshot of the file is created (but not yet saved). You can also unstage the file if you determine that you need to make further changes before doing a "git commit"
-  *- Commit* - done by doing a "git commit". This is where the snapshot is saved.
+  1. *Working* - This means that you are currently working on a file in the current branch.
+  2. *Stage* - Before you commit a file, you must "git add" it first to the staging area. This means that changes are ready to be committed to a particular file. A snapshot of the file is created (but not yet saved). You can also unstage the file if you determine that you need to make further changes before doing a "git commit"
+  3. *Commit* - done by doing a "git commit". This is where the snapshot is saved.
 
 **6. Write a handy cheatsheet of the commands you need to commit your changes?**
 - `git add [file]` - adds a file into the staging area, creates a snapshot of a file in preparation of versioning.

@@ -15,16 +15,16 @@ Commit messages has to be descriptiive. Someone who will later access the reposi
  This is usually used after the git reset command to go back to the last commit. HEAD^ is a shortcut for "HEAD^1" which means go back to the last commit.
 
 **5. What are the 3 stages of a git change and how do you move a file from one stage to the other?**
-  *1. Working* - This means that you are currently working on a file in the current branch.
-  *2. Stage* - Before you commit a file, you must "git add" it first to the staging area. This means that changes are ready to be committed to a particular file. A snapshot of the file is created (but not yet saved). You can also unstage the file if you determine that you need to make further changes before doing a "git commit"
-  *3. Commit* - done by doing a "git commit". This is where the snapshot is saved.
+  *- Working* - This means that you are currently working on a file in the current branch.
+  *- Stage* - Before you commit a file, you must "git add" it first to the staging area. This means that changes are ready to be committed to a particular file. A snapshot of the file is created (but not yet saved). You can also unstage the file if you determine that you need to make further changes before doing a "git commit"
+  *- Commit* - done by doing a "git commit". This is where the snapshot is saved.
 
 **6. Write a handy cheatsheet of the commands you need to commit your changes?**
-- git add [file] - adds a file into the staging area, creates a snapshot of a file in preparation of versioning.
-- git status - lists all new or file changes that needs to be commited
-- git commit -m "message" - saves a snapshot of the file in the local repo
-- git reset [file] - removes the file from the staging area, deletes the snapshot (but preserves the file)
-- git push origin master - uploads local commits to Github
+- `git add [file]` - adds a file into the staging area, creates a snapshot of a file in preparation of versioning.
+- `git status` - lists all new or file changes that needs to be commited
+- `git commit -m "message"` - saves a snapshot of the file in the local repo
+- `git reset [file]` - removes the file from the staging area, deletes the snapshot (but preserves the file)
+- `git push origin master` - uploads local commits to Github
 
 **7. What is a pull request and how do you create and merge one?**
 Pull requests lets others know about changes you've pushed to a repository on GitHub. After pushing a commit to a forked repo into GitHub, navigate to your repository with the changes you want someone else to pull and press the Pull Request button. Others will be able to review changes, discuss it or even submit further commits before merging to the master.

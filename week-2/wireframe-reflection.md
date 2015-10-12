@@ -1,10 +1,10 @@
 #2.4 Wireframing
 
-**Wireframe for the site index*
+**Wireframe for the site index:**
 
 ![](imgs/wireframe-index.png "Site Index Wireframe")
 
-**Wirefram for the blog index**
+**Wireframe for the blog index:**
 
 ![](imgs/wireframe-blog-index.png "Blog Index Wireframe")
 

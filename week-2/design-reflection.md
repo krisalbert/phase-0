@@ -1,7 +1,8 @@
 #2.3 Introduction to Design and Site Planning
 
 **My site map**
-(/imgs/site-map.png "Site Map")
+
+!(/imgs/site-map.png "Site Map")
 
 **1. What are the 6 Phases of Web Design?**
 
